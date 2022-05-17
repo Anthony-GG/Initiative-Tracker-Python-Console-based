@@ -1,0 +1,37 @@
+'''
+
+Name: Anthony Iacano
+
+Program: Initiative Tracker v0.1
+
+Program Purpose: To track a number of characters set, and named within the 
+program, placing them in order based on their initiative rolled. Players and 
+enemies alike
+
+
+'''
+
+import character
+
+#opening print line for program // split into lines to for easier reading
+opening = (
+        f"|-------------------------------------------|\n\n|   Welcome to the "
+         "Initiative Tracker v0.1  |\n\n|---------------------------------------"
+         "----|\n"
+    )
+print(opening)
+
+creature_num = input('Please input number of characters (including any allies, enemies or any fighting creature): ')
+print(creature_num)
+creature_num = int(creature_num)
+
+#while loop that contains the turns and creature name/affiliation        
+while True:
+    
+    #for loop that collects data on characters and adds to a list
+    for x in range(0, creature_num):
+            
+        
+        
+    break
+    
