@@ -18,8 +18,4 @@ class Character:
 #test character
 c1 = Character("Anthony", 'PC', 0)
 
-print(c1.name)
-print(c1.allignment)
-print(c1.initiative)
 
-#make sure you find a way to stop people from putting random options for allignment
